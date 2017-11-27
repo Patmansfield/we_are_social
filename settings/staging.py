@@ -15,11 +15,11 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_nbWefqblVg8HnYsFmp
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_N35jP51CRqW4FKBMa8MAL1A4')
 
 # Paypal environment variables
-PAYPAL_NOTIFY_URL = 'https://cd8e2f31.ngrok.io/a-very-hard-to-guess-url/'
+PAYPAL_NOTIFY_URL = 'https://project-we-are-social.herokuapp.com/'
 PAYPAL_RECEIVER_EMAIL = 'pat.mansfield2014@gmail.com'
 
-SITE_URL = 'https://your-heroku-app.herokuapp.com'
-ALLOWED_HOSTS.append('your-heroku-app.herokuapp.com')
+SITE_URL = 'https://project-we-are-social.herokuapp.com'
+ALLOWED_HOSTS.append('project-we-are-social.herokuapp.com')
 
 # Log DEBUG information to the console
 LOGGING = {
