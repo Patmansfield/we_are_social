@@ -1,7 +1,8 @@
 from base import *
 import os
 import dj_database_url
-import settings
+from django.conf import settings
+from whitenoise import WhiteNoise
 
 DEBUG = False
 
@@ -37,3 +38,5 @@ LOGGING = {
         },
     },
 }
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
